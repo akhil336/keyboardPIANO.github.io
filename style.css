@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    margin: 10%;
+    max-width:fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid black;
+}
+.ltgrey{
+    background-color: rgb(156, 155, 155);
+    width: 60px;
+    height: 120px;
+}
+.dkgrey{
+    background-color: rgb(114, 113, 113);
+    width: 60px;
+    height: 120px;
+}
+.pressed{
+    background-color: black;
+    /*background-image: linear-gradient(to bottom,rgb(156, 155, 155),rgb(82, 82, 82));
+     width: 60px;
+    height: 120px; */
+    
+}
+.alphabet{
+    margin-left: 40%;
+}
+
