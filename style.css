@@ -1,32 +1,50 @@
 *{
-    box-sizing: border-box;
+    box-sizing: border-box;   
+}
+body{
+    background-image: linear-gradient(to top,rgb(25, 0, 32),rgb(32, 0, 13));
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+.Heading{
+    text-align: center;
+    color: rgb(255, 255, 255);
 }
 .container{
-    margin: 10%;
+    margin: auto;
     max-width:fit-content;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 3px solid black;
+    border: 3px solid rgb(194, 194, 194);
 }
-.ltgrey{
+.alphabet{
+    text-align: center;
+    margin-left:40%;
+    color: rgb(250, 192, 0);
+}
+.lightgrey{
     background-color: rgb(156, 155, 155);
     width: 60px;
     height: 120px;
 }
-.dkgrey{
+.darkgrey{
     background-color: rgb(114, 113, 113);
     width: 60px;
     height: 120px;
 }
 .pressed{
-    background-color: black;
-    /*background-image: linear-gradient(to bottom,rgb(156, 155, 155),rgb(82, 82, 82));
-     width: 60px;
-    height: 120px; */
+    background-image: linear-gradient(to bottom,rgb(156, 155, 155),rgb(82, 82, 82));
+    width: 60px;
+    height: 120px; 
     
 }
-.alphabet{
-    margin-left: 40%;
+.pressed2{
+    background-image: linear-gradient(to bottom,rgb(114, 113, 113),rgb(49, 49, 49));
+    width: 60px;
+    height: 120px;
 }
-
+.Note{
+    color: white;
+}
